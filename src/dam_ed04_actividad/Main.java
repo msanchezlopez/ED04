@@ -17,8 +17,10 @@ public class Main {
         System.out.println("El saldo actual es"+ saldoActual );
 
         operativa_cuenta(cuenta1, null);
+        
+        System.out.println("Nueva línea añadida");
     }
-
+    
     private static void operativa_cuenta(CCuenta cuenta1, Float cantidad) {
         try {
             cuenta1.retirar(2300);
